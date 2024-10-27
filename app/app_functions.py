@@ -1,12 +1,10 @@
-import math
-
 def add_func(num1: int, num2: int):
     """
     This function adds together 2 integers.
     num1 requires int
     num2 requires int
     """
-    num_output = math.add(num1, num2)
+    num_output = num1 + num2
 
     return num_output
 
